@@ -1,0 +1,83 @@
+/* Inicio del cuerpo */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../img/fondo.jpg);
+    width: 100%;
+}
+
+/* Contenedor 1 y 2 */
+.divClass, h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.divClass h1{
+    height: 70px;
+    background-color: #161616;
+    padding-top: 20px;
+}
+
+.divClass h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.divClass, h1, h3, h4{
+    color: #ECDBBA;
+}
+
+.divClass #spanId{
+    font-size: 50px;
+    margin: 50px;
+}
+
+.divClass a{
+    margin-bottom: 20px;
+    color: #ECDBBA;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.divClass a:hover{
+    color: #161616;
+    text-transform: uppercase;
+}
+
+/* Contenedor 3 */
+
+.thirdDiv{
+    display: flex;
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    background: rgb(52, 103, 81, 0.25);
+    padding: 50px;
+}
+
+
+
+.thirdDiv img{
+    width: 400px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+/* Pie de pagina */
+footer{
+    height: auto;
+    width: 100%;
+    background: #161616;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer .derechos, .año{
+    color: #ECDBBA;
+    text-align: center;
+    
+}
